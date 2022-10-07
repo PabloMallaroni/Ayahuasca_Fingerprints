@@ -22,7 +22,7 @@ Your starting functional connectomes should be a region x time x subjects struct
 PLEASE NOTE: Unfortunately due to IRB constraints, we were not able to make subject-level data available without a prior data sharing agreement.  Please contact p.mallaroni@maastrichtuniversity.nl for a (vetted) exchange of all identifying data.
 
 
-**Please obtain the following toolboxes for**:
+**Please obtain the following toolboxes for**:<br/>
 Visualisations: https://github.com/bastibe/Violinplot-Matlab<br/>
 Renders: https://www.nitrc.org/projects/bnv/<br/>
 
