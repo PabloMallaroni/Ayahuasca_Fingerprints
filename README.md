@@ -16,7 +16,7 @@ We'll next be implementing framewise dynamical approaches for identifiability & 
 
 
 **Requirements**:
-Your starting functional connectomes should be a region x time x subjects structure x conditions/sessions. From this we will derive test-retest splits. Of course if you have multiple aquisitions in each session instead don't let that stop you! You can just restructure according to restructure_mats.mat.
+Your starting functional connectomes should be time(TRs) x regions x subjects structure (across conditions). From this we will derive test-retest splits. Of course if you have multiple aquisitions in each session instead don't let that stop you! You can just restructure according to restructure_mats.mat.
 
 
 PLEASE NOTE: Unfortunately due to IRB constraints, we were not able to make subject-level data available without a prior data sharing agreement.  Please contact p.mallaroni@maastrichtuniversity.nl for a (vetted) exchange of all identifying data.
