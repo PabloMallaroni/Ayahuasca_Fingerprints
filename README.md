@@ -1,6 +1,10 @@
 # Ayahuasca_Fingerprints
 Code and materials for  "Ritualistic use of ayahuasca enhances a shared functional connectome identity with others", as implemented in MATLAB 2019b.
 
+***13/10/2022 update: Code is being added incrementally to this repository while leading up to publication. ***
+
+
+
 Connectome fingerprinting allows for the assessement of a subject's connectome identifiability across experimental conditions by generating a "Identifiability Matrix" (Amico & Goñi, Scientific Reports 2018). The code serves to compares two functional connectome (FC) acquisitions/sessions for each subject (defined as test and retest) and gives the resultant pearson similarity matrix. Its main diagonal (top left to bottom right) highlights the self-identifiability (Iself) of the sample, i.e. the similarity between the test and retest FC of the same subject. The remaining elements consists in the comparison between test and retest FC of different subjects (Iothers). By computing all possible test-retest combinations we can extend this idea by comparing individual connectomes (ie: their distance) between different populations or conditions and generate "Hybrid" equivalents of each score. 
 
 
